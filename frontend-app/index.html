@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory vs. Attention — An Interactive BDH Explainer</title>
+    <meta
+      name="description"
+      content="Interactive explainer testing one falsifiable claim: a persistent learned state can carry information across long context without replaying it, but it can also accumulate stale or incorrect state. Compare full-context attention, bounded persistent memory, and a BDH-inspired sparse Hebbian state against ground truth."
+    />
+    <meta property="og:title" content="Memory vs. Attention — An Interactive BDH Explainer" />
+    <meta
+      property="og:description"
+      content="Change sequence length, memory capacity, update rate and noise, then watch a fixed-size state either save you or lie to you."
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
